@@ -1,16 +1,14 @@
-# Documentación del Proyecto
+# AWS Terraform Configuration
 
-## Construcción de la Imagen Docker
+Este proyecto utiliza Terraform para provisionar una instancia EC2 en AWS.
 
-Para construir la imagen Docker de nuestro proyecto, utilizamos el siguiente comando. Asegúrate de estar en el directorio raíz del proyecto donde se encuentra el Dockerfile.
+## Configuración
 
-```bash
-docker build -t test-tecnico .
-```
-## DockerHub 
+### Proveedor AWS
 
-jos3zy / test-tecnico
+Configuramos AWS con la región deseada.
 
-```bash
-
-```
+```hcl
+provider "aws" {
+  region = "us-west-2" # Cambia esto a tu región preferida
+}
