@@ -1,8 +1,16 @@
-# DOCUMENTACION
+# Documentación del Proyecto
 
-# CONSTRUCCION DEL IMAGEN DOCKER
+## Construcción de la Imagen Docker
+
+Para construir la imagen Docker de nuestro proyecto, utilizamos el siguiente comando. Asegúrate de estar en el directorio raíz del proyecto donde se encuentra el Dockerfile.
+
+```bash
 docker build -t test-tecnico .
+```
+## DockerHub 
 
-#APROVIONAMIENTO DE LA INFRAESTRUCTURA
+jos3zy / test-tecnico
 
-SE PUEDE HACER MEDIANTE TERRAFORM INSTANCIANOD LOS PROVEDORES CLOUD, Y CREANDO LA INSTANCIAS MEDIANTE MODULOS PARA TENER ENTORNOS DE PRUEBAS Y ENTORNOS DE DESARROLLO.
+```bash
+
+```
